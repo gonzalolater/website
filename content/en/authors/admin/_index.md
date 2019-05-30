@@ -1,0 +1,82 @@
+---
+# Display name
+name: Nicolas Blanco
+
+# Username (this should match the folder name)
+authors:
+- admin
+
+# Is this the primary user of the site?
+superuser: true
+
+# Role/position
+role: PhD student in Theoretical Computer Science
+
+# Organizations/Affiliations
+organizations:
+- name: University of Birmingham
+  url: "https://www.birmingham.ac.uk/index.aspx"
+
+# Short bio (displayed in user profile at end of posts)
+bio: My research interests lie in the interaction between Computer Science, Mathematics and Physics. My favorite tools are Logic and Category Theory.
+
+interests:
+- Monoidal Categories
+- Linear Logic
+- Quantum Programming Languages
+
+education:
+  courses:
+  - course: PhD in Theoretical Computer Science
+    institution: University of Birmingham
+    year: 2021
+  - course: MSc in Mathematical Logic and Foundation of Computer Science
+    institution: Paris Diderot University
+    year: 2016
+
+# Social/Academic Networking
+# For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
+#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
+#   form "mailto:your-email@example.com" or "#contact" for contact widget.
+social:
+- icon: envelope
+  icon_pack: fas
+  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/nicolas-blanco-birmingham/
+- icon: github
+  icon_pack: fab
+  link: https://github.com/nicolas-blanco
+# Link to a PDF of your resume/CV from the About widget.
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
+# - icon: cv
+#   icon_pack: ai
+#   link: files/cv.pdf
+
+# Enter email to display Gravatar (if Gravatar enabled in Config)
+email: ""
+  
+# Organizational groups that you belong to (for People widget)
+#   Set this to `[]` or comment out if you are not using People widget.  
+#user_groups:
+#- Researchers
+#- Visitors
+---
+
+I am a PhD student in the [Theoretical Computer Science group](http://www.cs.bham.ac.uk/research/groupings/theory/) at the University of Birmingham. My supervisor is [Noam Zeilberger](http://noamz.org/).\\
+My research interests include models of linear logic, categorical semantics of non-classical programming languages - e.g. probabilistic or quantum programming languages - and monoidal categories.
+
+Before that I did a Master in Mathematical Logic and Foudation of Computer Science at the Paris Diderot University. During this period I did a five-month internship under the supervision of [Benoît Valiron](http://www.monoidal.net/) on the syntax and semantics of a linear probabilistic $\lambda\mu$-calculus.
+
+Lately I have been investigated refinements of models of linear logic.\\
+In categorical terms I have been looking at functors $p \colon \mathcal{E} \to \mathcal{B}$ such that the base category $\mathcal{B}$ is symmetric monoidal closed (SMC) or $\ast$-autonomous.\\
+A natural question is: can the logical structure of $\mathcal{B}$ be lifted to the category $\mathcal{E}$?
+
+A nice framework to analyse this is by moving to a multicategorical or polycategorical setting.\\
+There the existence of some logical structure on $\mathcal{E}$ inherited by $\mathcal{B}$ reduced to (bi)fibrational properties of the multifunctor or polyfunctor associated to $p$.
+
+My motivating example is the forgetful functor between the category of finite dimensional Banach spaces and contractive maps and the category of finite dimensional vector spaces and linear maps.\\
+The former is $\ast$-autonomous with finite products and finite coproducts while the latter is compact closed with finite biproducts.\\
+So in some sense considering norms on finite dimensional vector spaces gives a way to distinguish between conjunction and disjunction.
+

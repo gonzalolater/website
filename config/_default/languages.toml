@@ -4,17 +4,45 @@
 
 # Configure the English version of the site.
 [en]
-  languageCode = "en-us"
-  # contentDir = "content/en"  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
+  languageCode = "en"
+  contentDir = "content/en"  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
+  title = "Nicolas Blanco"
+
+  [[en.menu.main]]
+    name = "About"
+    url = "#about"
+    weight = 10
+
+  [[en.menu.main]]
+    name = "Posts"
+    url = "#posts"
+    weight = 20
+
+
+  [[en.menu.main]]
+    name = "Contact"
+    url = "#contact"
+    weight = 30
 
 # Uncomment the lines below to configure your website in a second language.
-#[zh]
-#  languageCode = "zh-Hans"
-#  contentDir = "content/zh"
-#  title = "Chinese website title..."
-#  [zh.params]
-#    description = "Site description in Chinese..."
-#  [[zh.menu.main]]
-#    name = "Wo"
-#    url = "#about"
-#    weight = 1
+[fr]
+  languageCode = "fr"
+  contentDir = "content/fr"
+  title = "Nicolas Blanco"
+  [fr.params]
+    description = "Je suis un doctorant en Informatique Théorique à l'université de Birmingham."
+  [[fr.menu.main]]
+    name = "A propos"
+    url = "#about"
+    weight = 10
+
+  [[fr.menu.main]]
+    name = "Articles"
+    url = "#posts"
+    weight = 20
+
+
+  [[fr.menu.main]]
+    name = "Contact"
+    url = "#contact"
+    weight = 30

@@ -1,9 +1,6 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-markup: mmark
-math: true
-
 title: "Classical linear logic via bifibrations of polycategories"
 event: Fifth Symposium on Compositional Structures (SYCO 5)
 event_url: "events.cs.bham.ac.uk/syco/strings3-syco5/"
@@ -36,11 +33,11 @@ image:
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Follow
-#   url: https://twitter.com
-#   icon_pack: fab
-#   icon: twitter
+links:
+ - name: Follow
+   url: "https://twitter.com/star_autonomy"
+   icon_pack: fab
+   icon: twitter
 
 # Optional filename of your slides within your talk's folder or a URL.
 url_slides:

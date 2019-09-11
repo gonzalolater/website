@@ -23,7 +23,7 @@ bio: Mon domaine de recherche se trouve à la frontière entre Informatique, Mat
 interests:
 - Catégories monoïdales
 - Logique Linéaire
-- Languages de Programmation Quantique
+- Langages de Programmation Quantique
 
 education:
   courses:
@@ -48,6 +48,9 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/nicolas-blanco
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/star_autonomy
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 # - icon: cv
@@ -65,14 +68,14 @@ email: ""
 ---
 
 Je suis doctorant dans [l'équipe d'Informatique Théorique](http://www.cs.bham.ac.uk/research/groupings/theory/) de l'Université de Birmingham. Mon directeur de thèse est [Noam Zeilberger](http://noamz.org/).\\
-Parmi les domaines de recherche qui m'attirent se trouvent les modèles de la logique linéaire, la sémantique des languages de programmation quantique et la théorie des catégories monoïdales.
+Parmi les domaines de recherche qui m'attirent se trouvent les modèles de la logique linéaire, la sémantique des langages de programmation quantique et la théorie des catégories monoïdales.
 
 Je suis diplômé d'un Master en [Logique Mathématique et Fondements de l'Informatique (LMFI)](http://www.math.univ-paris-diderot.fr/m2lmfi/) de l'Université Paris Diderot.\\
 Durant cette formation j'ai eu le privilège d'effectuer un stage de cinq mois au [Laboratoire de Recherche en Informatique (LRI)](https://www.lri.fr/) de Paris Saclay sous la direction de [Benoît Valiron](http://www.monoidal.net/).
-J'y ai développé la syntaxe et la sémantique d'un $\lambda\mu$-calcul probabilistique linéaire.
+J'y ai développé la syntaxe et la sémantique d'un $\lambda\mu$-calcul probabiliste linéaire.
 
 Récemment je me suis penché sur les raffinements de modèles de la logique linéaire.\\
-D'un point de vue catégorique, cela peut se représenter sous la forme d'un foncteur $p \colon \mathcal{E} \to \mathcal{B}$ pour lequel la base $\mathcal{B}$ est symmétrique monoïdale fermée ou $\ast$-autonome.\\
+D'un point de vue catégorique, cela peut se représenter sous la forme d'un foncteur $p \colon \mathcal{E} \to \mathcal{B}$ pour lequel la base $\mathcal{B}$ est symétrique monoïdale fermée ou $\ast$-autonome.\\
 Il est alors naturel de se demander si la structure logique de la base peut être étendue à la catégorie totale $\mathcal{E}$.
 
 Une approche que je trouve élégante pour analyser ce problème est en passant aux multicatégories dans le cas intuitionniste et aux polycatégories dans le cas classique.\\

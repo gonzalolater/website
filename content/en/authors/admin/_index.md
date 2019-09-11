@@ -48,6 +48,9 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/nicolas-blanco
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/star_autonomy
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 # - icon: cv
@@ -67,7 +70,7 @@ email: ""
 I am a PhD student in the [Theoretical Computer Science group](http://www.cs.bham.ac.uk/research/groupings/theory/) at the University of Birmingham. My supervisor is [Noam Zeilberger](http://noamz.org/).\\
 My research interests include models of linear logic, categorical semantics of non-classical programming languages - e.g. probabilistic or quantum programming languages - and monoidal categories.
 
-Before that I did a Master in Mathematical Logic and Foudation of Computer Science at the Paris Diderot University. During this period I did a five-month internship under the supervision of [Benoît Valiron](http://www.monoidal.net/) on the syntax and semantics of a linear probabilistic $\lambda\mu$-calculus.
+Before that I did a Master in Mathematical Logic and Foundation of Computer Science at the Paris Diderot University. During this period I did a five-month internship under the supervision of [Benoît Valiron](http://www.monoidal.net/) on the syntax and semantics of a linear probabilistic $\lambda\mu$-calculus.
 
 Lately I have been investigated refinements of models of linear logic.\\
 In categorical terms I have been looking at functors $p \colon \mathcal{E} \to \mathcal{B}$ such that the base category $\mathcal{B}$ is symmetric monoidal closed (SMC) or $\ast$-autonomous.\\

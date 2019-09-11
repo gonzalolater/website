@@ -20,9 +20,14 @@
 
 
   [[en.menu.main]]
+    name = "Talks"
+    url = "#talks"
+    weight = 30
+
+  [[en.menu.main]]
     name = "Contact"
     url = "#contact"
-    weight = 30
+    weight = 40
 
 # Uncomment the lines below to configure your website in a second language.
 [fr]
@@ -41,8 +46,12 @@
     url = "#posts"
     weight = 20
 
+  [[fr.menu.main]]
+    name = "Conférences"
+    url = "#talks"
+    weight = 30
 
   [[fr.menu.main]]
     name = "Contact"
     url = "#contact"
-    weight = 30
+    weight = 40

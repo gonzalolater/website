@@ -1,6 +1,6 @@
 +++
 
-draft = true
+draft = false
 
 # A Recent Publications section created with the Pages widget.
 # This section displays recent blog posts from `content/publication/`.
@@ -10,7 +10,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 90  # Order that this section will appear.
 
-title = "Recent Publications"
+title = "Publications récentes"
 subtitle = ""
 
 [content]
@@ -69,6 +69,3 @@ subtitle = ""
  css_class = ""
 +++
 
-{{% alert note %}}
-Quickly discover relevant content by [filtering publications]({{< ref "/publication/_index.md" >}}).
-{{% /alert %}}

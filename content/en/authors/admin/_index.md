@@ -67,19 +67,19 @@ email: ""
 #- Visitors
 ---
 
-I am a PhD student in the [Theoretical Computer Science group](http://www.cs.bham.ac.uk/research/groupings/theory/) at the University of Birmingham. My supervisor is [Noam Zeilberger](http://noamz.org/).\\
+I am a PhD student in the [Theoretical Computer Science group](http://www.cs.bham.ac.uk/research/groupings/theory/) at the University of Birmingham. My supervisor is [Noam Zeilberger](http://noamz.org/).
 My research interests include models of linear logic, categorical semantics of non-classical programming languages - e.g. probabilistic or quantum programming languages - and monoidal categories.
 
 Before that I did a Master in Mathematical Logic and Foundation of Computer Science at the Paris Diderot University. During this period I did a five-month internship under the supervision of [Benoît Valiron](http://www.monoidal.net/) on the syntax and semantics of a linear probabilistic $\lambda\mu$-calculus.
 
-Lately I have been investigated refinements of models of linear logic.\\
-In categorical terms I have been looking at functors $p \colon \mathcal{E} \to \mathcal{B}$ such that the base category $\mathcal{B}$ is symmetric monoidal closed (SMC) or $\ast$-autonomous.\\
+Lately I have been investigated refinements of models of linear logic.
+In categorical terms I have been looking at functors $p \colon \mathcal{E} \to \mathcal{B}$ such that the base category $\mathcal{B}$ is symmetric monoidal closed (SMC) or $\ast$-autonomous.
 A natural question is: can the logical structure of $\mathcal{B}$ be lifted to the category $\mathcal{E}$?
 
-A nice framework to analyse this is by moving to a multicategorical or polycategorical setting.\\
+A nice framework to analyse this is by moving to a multicategorical or polycategorical setting.
 There the existence of some logical structure on $\mathcal{E}$ inherited by $\mathcal{B}$ reduced to (bi)fibrational properties of the multifunctor or polyfunctor associated to $p$.
 
-My motivating example is the forgetful functor between the category of finite dimensional Banach spaces and contractive maps and the category of finite dimensional vector spaces and linear maps.\\
-The former is $\ast$-autonomous with finite products and finite coproducts while the latter is compact closed with finite biproducts.\\
+My motivating example is the forgetful functor between the category of finite dimensional Banach spaces and contractive maps and the category of finite dimensional vector spaces and linear maps.
+The former is $\ast$-autonomous with finite products and finite coproducts while the latter is compact closed with finite biproducts.
 So in some sense considering norms on finite dimensional vector spaces gives a way to distinguish between conjunction and disjunction.
 

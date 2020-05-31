@@ -25,9 +25,13 @@
     weight = 30
 
   [[en.menu.main]]
+    name = "Publications"
+    url = "#publications"
+    weight = 40
+  [[en.menu.main]]
     name = "Contact"
     url = "#contact"
-    weight = 40
+    weight = 50
 
 # Uncomment the lines below to configure your website in a second language.
 [fr]
@@ -52,6 +56,11 @@
     weight = 30
 
   [[fr.menu.main]]
+    name = "Publications"
+    url = "#publications"
+    weight = 40
+
+  [[fr.menu.main]]
     name = "Contact"
     url = "#contact"
-    weight = 40
+    weight = 50

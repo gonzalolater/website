@@ -2,8 +2,8 @@
 # Documentation: https://sourcethemes.com/academic/
 
 # Color theme.
-#   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`, `strawberry`.
-color_theme = "ocean"
+#   Choose from `minimal`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`, `strawberry`, `mr_robot`.
+theme = "ocean"
 # Enable users to switch between day and night mode?
 day_night = true
 
@@ -12,7 +12,7 @@ day_night = true
 font = "default"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = "This website is about research in Monoidal Category Theory, Quantum Computing, Linear Logic and how these wonderful subject can fit in the same picture."
+description = "This website is about research in Applied Category Theory, Quantum Computing, Linear Logic and how these wonderful subject can fit in the same picture."
 
 # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
 sharing_image = ""
@@ -45,6 +45,9 @@ date_format = "Jan 2, 2006"
 #   Examples: "3:04 pm" or "15:04"
 time_format = "3:04 PM"
 
+# Address format (choose from the [address_formats] list below or add you own to the list).
+address_format = "en-gb"
+
 ############################
 ## Contact Widget setup   ##
 ############################
@@ -52,10 +55,10 @@ time_format = "3:04 PM"
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "n.blanco@pgr.bham.ac.uk"
 phone = ""
-address = "Office 218, School of Computer Science, University of Birmingham, B15 2TT, United Kingdom"
+address = {street = "Office 218, School of Computer Science, University of Birmingham", city = "Birmingham", region = "", postcode = "B15 2TT", country = "United Kingdom", country_code = "UK"}
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
-office_hours = ""
+office_hours = []
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
 appointment_url = ""
@@ -85,21 +88,28 @@ contact_links = [
 #   1: Google Maps
 #   2: OpenStreetMap (Mapnik)
 #   3: OpenStreetMap (Mapbox)
-map = 0
-map_api_key = ""
-latitude = "37.4275"
-longitude = "-122.1697"
-zoom = 15
+#map = 0
+#map_api_key = ""
+#latitude = "37.4275"
+#longitude = "-122.1697"
+#zoom = 15
 
 ############################
 ## Plugins                ##
 ############################
 
-# Load CSS and JS plugins
-#   E.g. To load `/assets/css/custom.css`, set `plugins_css = ["custom"]`.
+# Link authors to their profile page? (true/false)
+link_authors = true
+
+# Load JS plugins
 #   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
-plugins_css = []
 plugins_js  = []
+
+# Available address formats.
+[address_formats]
+  en-us = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ' ', '']}
+  en-gb = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ', ', '']}
+  zh = {order = ['postcode', 'region', 'city', 'street'], delimiters = [' ', ' ', ' ', '']}
 
 ############################
 ## Advanced options       ##
@@ -108,8 +118,8 @@ plugins_js  = []
 # Get user avatars from Gravatar.com? (true/false)
 gravatar = false
 
-# Align the main menu to the right of the page? (true/false)
-menu_align_right = false
+# Main menu alignment (l = left, c = center, r = right) and logo options.
+main_menu = {align = "l", show_logo = true}
 
 # Show estimated reading time for posts? (true/false)
 reading_time = true
@@ -159,3 +169,47 @@ sharing = true
     api_key = ""
     index_name = ""
     show_logo = false
+
+# Comments.
+[comments]
+  # Comment provider:
+  #   0: Disabled
+  #   1: Disqus (https://disqus.com)
+  #   2: Commento (https://commento.io)
+  #   3: Utterances (https://utteranc.es)
+  engine = 3
+
+  # Which page types are commentable?
+  commentable = {page = true, post = true, docs = true}
+
+  # Configuration of Disqus.
+  [comments.disqus]
+    shortname = ""  # Paste the shortname from your Disqus dashboard.
+    show_count = true  # Show comment count in page header? (true/false)
+
+[map]
+  # To show your address on a map in the Contact widget, enter your latitude and longitude (above)
+  # and choose a map provider below.
+  #
+  # To use Google Maps, set `engine` to 1 and enter your API key that can be obtained here:
+  #   https://developers.google.com/maps/documentation/javascript/get-api-key
+  # To use OpenStreetMap tiles, set `engine` to 2.
+  # To use OpenStreetMap on a high traffic site, set `engine` to 3 and enter your API key that can be obtained here:
+  #   https://www.mapbox.com/studio/account/tokens
+  #
+  # Map provider:
+  #   0: No map
+  #   1: Google Maps
+  #   2: OpenStreetMap (Mapnik)
+  #   3: OpenStreetMap (Mapbox)
+  engine = 0
+  api_key = ""
+  zoom = 15
+
+############################
+## Marketing
+############################
+[marketing]
+  google_analytics = "UA-147424188-1"
+  google_tag_manager = ""
+

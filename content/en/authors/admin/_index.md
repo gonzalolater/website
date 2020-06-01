@@ -67,19 +67,16 @@ email: ""
 #- Visitors
 ---
 
-I am a PhD student in the [Theoretical Computer Science group](http://www.cs.bham.ac.uk/research/groupings/theory/) at the University of Birmingham. My supervisor is [Noam Zeilberger](http://noamz.org/).
-My research interests include models of linear logic, categorical semantics of non-classical programming languages - e.g. probabilistic or quantum programming languages - and monoidal categories.
+I am currently on a leave of absence from the University of Birmingham to do a research internship at [Riverlane](https://www.riverlane.com).
+I am investigating the formal verification of quantum programs written using DeltaFlow, their quantum OS.
 
-Before that I did a Master in Mathematical Logic and Foundation of Computer Science at the Paris Diderot University. During this period I did a five-month internship under the supervision of [Benoît Valiron](http://www.monoidal.net/) on the syntax and semantics of a linear probabilistic $\lambda\mu$-calculus.
+I am also a 2nd-year PhD student in the [Theoretical Computer Science group](https://www.cs.bham.ac.uk/research/groupings/theory/) at the University of Birmingham. My supervisor is [Noam Zeilberger](https://noamz.org/).
+My research interests include linear logic, applied category theory, quantum computing, formal methods and type theory.
 
-Lately I have been investigated refinements of models of linear logic.
-In categorical terms I have been looking at functors $p \colon \mathcal{E} \to \mathcal{B}$ such that the base category $\mathcal{B}$ is symmetric monoidal closed (SMC) or $\ast$-autonomous.
-A natural question is: can the logical structure of $\mathcal{B}$ be lifted to the category $\mathcal{E}$?
+Before being in the west Midlands, I did a Master in [Mathematical Logic and Foundation of Computer Science](http://master.math.univ-paris-diderot.fr/en/annee/m2-lmfi/) at the Paris Diderot University.
+At this occasion, I did a five-month internship under the supervision of [Benoît Valiron](https://www.monoidal.net/) on the syntax and semantics of a linear probabilistic $\lambda\mu$-calculus.
 
-A nice framework to analyse this is by moving to a multicategorical or polycategorical setting.
-There the existence of some logical structure on $\mathcal{E}$ inherited by $\mathcal{B}$ reduced to (bi)fibrational properties of the multifunctor or polyfunctor associated to $p$.
-
-My motivating example is the forgetful functor between the category of finite dimensional Banach spaces and contractive maps and the category of finite dimensional vector spaces and linear maps.
-The former is $\ast$-autonomous with finite products and finite coproducts while the latter is compact closed with finite biproducts.
-So in some sense considering norms on finite dimensional vector spaces gives a way to distinguish between conjunction and disjunction.
-
+During the first year of my PhD, I have been developing a theory of [bifibrations of polycategories](publication/polybifibrations).
+Amongst other things, I have used this theory to provide a way of lifting categorical models of multiplicative linear logic along a functor.
+Now, in addition to building more of the theory, I would like to explore how to use it to model logical properties of systems.
+The idea would be to study some interplay between compact closed categories (the systems) and $\ast$-autonomous categories (the logic).

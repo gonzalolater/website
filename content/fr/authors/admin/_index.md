@@ -67,21 +67,17 @@ email: ""
 #- Visitors
 ---
 
-Je suis doctorant dans [l'équipe d'Informatique Théorique](http://www.cs.bham.ac.uk/research/groupings/theory/) de l'Université de Birmingham. Mon directeur de thèse est [Noam Zeilberger](http://noamz.org/).\\
-Parmi les domaines de recherche qui m'attirent se trouvent les modèles de la logique linéaire, la sémantique des langages de programmation quantique et la théorie des catégories monoïdales.
+En ce moment, je pris un congé estival de l'université de Birmingham pour pouvoir faire un stage de recherche chez [Riverlane](https://www.riverlane.com).
 
-Je suis diplômé d'un Master en [Logique Mathématique et Fondements de l'Informatique (LMFI)](http://www.math.univ-paris-diderot.fr/m2lmfi/) de l'Université Paris Diderot.\\
+Lorsque je ne suis expatrié dans une startup cambridgienne - à distance depuis la sécurité de mon jardin à Biot, COVID oblige - je suis doctorant en seconde année dans [l'équipe d'Informatique Théorique](http://www.cs.bham.ac.uk/research/groupings/theory/) de l'Université de Birmingham.
+Mon directeur de thèse est [Noam Zeilberger](http://noamz.org/).
+Parmi les domaines de recherche qui m'attirent on peut trouver en vrac, la logique linéaire, la théorie des catégories appliquée, l'informatique quantique, les méthodes formelles ou encore la théorie des types.
+
+Je suis diplômé d'un Master en [Logique Mathématique et Fondements de l'Informatique (LMFI)](http://www.math.univ-paris-diderot.fr/m2lmfi/) de l'Université Paris Diderot.
 Durant cette formation j'ai eu le privilège d'effectuer un stage de cinq mois au [Laboratoire de Recherche en Informatique (LRI)](https://www.lri.fr/) de Paris Saclay sous la direction de [Benoît Valiron](http://www.monoidal.net/).
 J'y ai développé la syntaxe et la sémantique d'un $\lambda\mu$-calcul probabiliste linéaire.
 
-Récemment je me suis penché sur les raffinements de modèles de la logique linéaire.\\
-D'un point de vue catégorique, cela peut se représenter sous la forme d'un foncteur $p \colon \mathcal{E} \to \mathcal{B}$ pour lequel la base $\mathcal{B}$ est symétrique monoïdale fermée ou $\ast$-autonome.\\
-Il est alors naturel de se demander si la structure logique de la base peut être étendue à la catégorie totale $\mathcal{E}$.
-
-Une approche que je trouve élégante pour analyser ce problème est en passant aux multicatégories dans le cas intuitionniste et aux polycatégories dans le cas classique.\\
-$\mathcal{E}$ hérite alors des structures logiques de $\mathcal{B}$ si le multifoncteur ou polyfoncteur correspondant à $p$ à de bonnes propriétés fibrationnelles.
-
-L'exemple dont je m'inspire pour étudier cela est le foncteur d'oubli de la catégorie des espaces de Banach de dimension finie et des applications contractantes vers la catégorie des espaces vectoriels de dimension finie et des applications linéaires.\\
-La première est $\ast$-autonome avec tous les produits et coproduits finis alors que la seconde est compacte fermée avec tous les biproduits finis.\\
-Donc d'une certaine manière mettre des normes sur les espaces vectoriels de dimension finie est une façon de différentier entre conjonctions et disjonctions.
-
+Lors de ma première année de doctorat, j'ai développé une théorie des [polycatégories bifibrées](publication/polybifibrations).
+Je l'ai ensuite utilisé pour, à partir d'un foncteur dont le codomaine est un modèle de la logique linéaire, équiper le domaine d'une structure logique compatible avec celle du codomaine.
+Maintenant, en plus de continuer à étendre la théorie, je souhaiterai l'utiliser pour représenter des propriétés logiques de systèmes.
+L'idée sous-jacente est d'interpréter les systèmes par des catégories compactes fermées et leurs propriétés logiques par des catégories $\ast$-autonomes.

@@ -67,17 +67,17 @@ email: ""
 #- Visitors
 ---
 
-En ce moment, je pris un congé estival de l'université de Birmingham pour pouvoir faire un stage de recherche chez [Riverlane](https://www.riverlane.com).
+En ce moment, je suis en congé estival de l'université de Birmingham dans le cadre d'un stage de recherche chez [Riverlane](https://www.riverlane.com).
 
-Lorsque je ne suis expatrié dans une startup cambridgienne - à distance depuis la sécurité de mon jardin à Biot, COVID oblige - je suis doctorant en seconde année dans [l'équipe d'Informatique Théorique](http://www.cs.bham.ac.uk/research/groupings/theory/) de l'Université de Birmingham.
+Lorsque je ne suis pas expatrié dans une startup cambridgienne - à distance depuis la sécurité de mon jardin à Biot, COVID oblige - je suis doctorant en seconde année dans [l'équipe d'Informatique Théorique](http://www.cs.bham.ac.uk/research/groupings/theory/) de l'Université de Birmingham.
 Mon directeur de thèse est [Noam Zeilberger](http://noamz.org/).
 Parmi les domaines de recherche qui m'attirent on peut trouver en vrac, la logique linéaire, la théorie des catégories appliquée, l'informatique quantique, les méthodes formelles ou encore la théorie des types.
 
 Je suis diplômé d'un Master en [Logique Mathématique et Fondements de l'Informatique (LMFI)](http://www.math.univ-paris-diderot.fr/m2lmfi/) de l'Université Paris Diderot.
-Durant cette formation j'ai eu le privilège d'effectuer un stage de cinq mois au [Laboratoire de Recherche en Informatique (LRI)](https://www.lri.fr/) de Paris Saclay sous la direction de [Benoît Valiron](http://www.monoidal.net/).
+Durant cette formation, j'ai eu le privilège d'effectuer un stage de cinq mois au [Laboratoire de Recherche en Informatique (LRI)](https://www.lri.fr/) de Paris Saclay sous la direction de [Benoît Valiron](http://www.monoidal.net/).
 J'y ai développé la syntaxe et la sémantique d'un $\lambda\mu$-calcul probabiliste linéaire.
 
 Lors de ma première année de doctorat, j'ai développé une théorie des [polycatégories bifibrées](publication/polybifibrations).
-Je l'ai ensuite utilisé pour, à partir d'un foncteur dont le codomaine est un modèle de la logique linéaire, équiper le domaine d'une structure logique compatible avec celle du codomaine.
+Je l'ai ensuite utilisée pour, à partir d'un foncteur dont le codomaine est un modèle de la logique linéaire, équiper le domaine d'une structure logique compatible avec celle du codomaine.
 Maintenant, en plus de continuer à étendre la théorie, je souhaiterai l'utiliser pour représenter des propriétés logiques de systèmes.
 L'idée sous-jacente est d'interpréter les systèmes par des catégories compactes fermées et leurs propriétés logiques par des catégories $\ast$-autonomes.

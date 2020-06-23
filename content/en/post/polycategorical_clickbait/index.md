@@ -32,15 +32,15 @@ A quick compilation of facts about polycategories together with links to the app
 
 1. **Polycategories** have been introduced by Szabo in 1975 in [_Polycategories_](https://www.tandfonline.com/doi/abs/10.1080/00927877508822067).
 2. **Polycategories** are "categories with many-to-many morphisms", i.e. **polymaps** have many inputs and many outputs.
-3. **Polycategories** correspond to **classical Gentzen sequent calculus**.
+3. **Polycategories** correspond to **Gentzen classical sequent calculus**.
 4. **Polycategories** compose on one object.
 5. Composition of **Polycategories** is the cut rule.
-6. **Representable Polycategories**, a.k.a. two-tensor polycategories, are **linearly distributive categories**, see [_Weakly distributive categories_](https://www.sciencedirect.com/science/article/pii/0022404995001603).
-7. In a **Polycategory**, $\otimes$ and ⅋ are characterised by **universal properties**.
-8. **Logic is Universal!**
-9. **Polycategories bifibred** over representable one are **representable**, see [_my talk_]({{< ref "talk/SYCO5/index.md" >}}).
-10. The **terminal Polycategory** have one object $\ast$ and one polymap $\underline{(m,n)}$ for each arities.
+6. **Representable polycategories**, a.k.a. two-tensor polycategories, are **linearly distributive categories**, see [_Weakly distributive categories_](https://www.sciencedirect.com/science/article/pii/0022404995001603).
+7. In a **polycategory**, $\otimes$, ⅋ and duality are characterised by **universal properties**.
+8. Representable polycategories with duals are called ** *-representable**.
+9. **Polycategories bifibred** over *-representable one are ** *-representable**, see [_my talk_]({{< ref "publication/polybifibrations/index.md" >}}).
+10. The **terminal polycategory** have one object $\ast$ and one polymap $\underline{(m,n)}$ for each arities.
 11. A **Polycategory** is **representable** iff it is **bifibred** over the **terminal** one.
-12. **Universal polymaps** are the **opcartesian polymaps**, w.r.t. the functor into the terminal **Polycategory**.
-13. **Universality is Fibrational!**
-14. **Frobenius algebras** are the generalised elements of **Polycategories**.
+12. **Universal polymaps** are the **cartesian polymaps**, w.r.t. the functor into the terminal **Polycategory**.
+13. **Frobenius algebras** are the generalised elements of **polycategories**.
+14. There is a **Grothendieck correspondence** for polycategories.

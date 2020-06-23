@@ -37,10 +37,10 @@ A quick compilation of facts about polycategories together with links to the app
 5. Composition of **Polycategories** is the cut rule.
 6. **Representable polycategories**, a.k.a. two-tensor polycategories, are **linearly distributive categories**, see [_Weakly distributive categories_](https://www.sciencedirect.com/science/article/pii/0022404995001603).
 7. In a **polycategory**, $\otimes$, ⅋ and duality are characterised by **universal properties**.
-8. Representable polycategories with duals are called ** *-representable**.
-9. **Polycategories bifibred** over *-representable one are ** *-representable**, see [_my talk_]({{< ref "publication/polybifibrations/index.md" >}}).
+8. Representable polycategories with duals are called **$\ast$-representable**.
+9. **Polycategories bifibred** over $\ast$-representable one are **$\ast$-representable**, see [_this paper_]({{< ref "publication/polybifibrations/index.md" >}}).
 10. The **terminal polycategory** have one object $\ast$ and one polymap $\underline{(m,n)}$ for each arities.
-11. A **Polycategory** is **representable** iff it is **bifibred** over the **terminal** one.
+11. A **Polycategory** is **$\ast$-representable** iff it is **bifibred** over the **terminal** one.
 12. **Universal polymaps** are the **cartesian polymaps**, w.r.t. the functor into the terminal **Polycategory**.
 13. **Frobenius algebras** are the generalised elements of **polycategories**.
 14. There is a **Grothendieck correspondence** for polycategories.

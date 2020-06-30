@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Bifibrations of polycategories and classical linear logic (draft)"
+title: "Bifibrations of polycategories and classical linear logic"
 authors: ["admin","Noam Zeilberger"]
 date: 2020-05-30T13:28:54+01:00
 doi: ""
@@ -16,10 +16,11 @@ publishDate: 2020-05-30T13:28:54+01:00
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Bifibrations of polycategories and classical linear logic (draft version)"
+publication: "Bifibrations of polycategories and classical linear logic"
 publication_short: ""
 
-abstract: "The main goal of this article is to expose and relate different ways of interpreting the multiplicative fragment of classical linear logic in polycategories. Polycategories are known to give rise to models of classical linear logic in so-called representable *-polycategories, which ask for the existence of various polymaps satisfying the different universal properties needed to define tensor, par, and negation. We begin by explaining how these different universal properties can all be seen as instances of a single notion of universality of a polymap parametrised by an input or output object, which also generalises the classical notion of universal multimaps in a multicategory. We then proceed to introduce a definition of in-cartesian and out-cartesian polymap relative to a refinement system (= strict functor) of polycategoriesm in such a way that universal polymaps can be understood as a special case. In particular, we obtain that a polycategory is a representable *-polycategory if and only if it is bifibred over the terminal polycategory. Finally, we present a Grothendieck correspondence between bifibrations of polycategories and pseudofunctors into MAdj, the 2-polycategory of multivariable adjunctions. When restricted to bifibrations over the terminal polycategory we get back the correspondence between *-autonomous categories and Frobenius pseudomonoids in MAdj that was recently observed by Shulman."
+abstract: >
+  *This is a paper presented at MFPS 2020. It has also been accepted for a keynote presentation at ACT 2020. This page contains an extended version of the paper, the final version of the MFPS proceedings and the extended abstract submitted to ACT. The extended version of the paper is still work in progress.* The main goal of this article is to expose and relate different ways of interpreting the multiplicative fragment of classical linear logic in polycategories. Polycategories are known to give rise to models of classical linear logic in so-called representable *-polycategories, which ask for the existence of various polymaps satisfying the different universal properties needed to define tensor, par, and negation. We begin by explaining how these different universal properties can all be seen as instances of a single notion of universality of a polymap parametrised by an input or output object, which also generalises the classical notion of universal multimaps in a multicategory. We then proceed to introduce a definition of in-cartesian and out-cartesian polymap relative to a refinement system (= strict functor) of polycategoriesm in such a way that universal polymaps can be understood as a special case. In particular, we obtain that a polycategory is a representable *-polycategory if and only if it is bifibred over the terminal polycategory. Finally, we present a Grothendieck correspondence between bifibrations of polycategories and pseudofunctors into MAdj, the 2-polycategory of multivariable adjunctions. When restricted to bifibrations over the terminal polycategory we get back the correspondence between *-autonomous categories and Frobenius pseudomonoids in MAdj that was recently observed by Shulman.
 
 # Summary. An optional shortened abstract.
 summary: ""
@@ -30,11 +31,17 @@ featured: false
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
-# links:
+links:
 # - name: Follow
 #   url: https://twitter.com
 #   icon_pack: fab
 #   icon: twitter
+
+- name: MFPS 2020
+  url: "mfps.pdf"
+
+- name: ACT 2020
+  url : "act.pdf"
 
 url_pdf:
 url_code:

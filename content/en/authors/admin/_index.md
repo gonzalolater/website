@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Nicolas Blanco
+title: Nicolas Blanco
 
 # Username (this should match the folder name)
 authors:
@@ -21,7 +21,9 @@ organizations:
 bio: My research interests lie in the interaction between Computer Science, Mathematics and Physics. My favorite tools are Logic and Category Theory.
 
 interests:
-- Monoidal Categories
+- Monoidal, $\ast$-autonomous categories
+- (Generalised) Multicategories, Polycategories
+- Fibrations, Grothendieck construction
 - Linear Logic
 - Quantum Programming Languages
 
@@ -29,7 +31,7 @@ education:
   courses:
   - course: PhD in Theoretical Computer Science
     institution: University of Birmingham
-    year: 2021
+    year: 2022
   - course: MSc in Mathematical Logic and Foundation of Computer Science
     institution: Paris Diderot University
     year: 2016
@@ -67,19 +69,13 @@ email: ""
 #- Visitors
 ---
 
-I am a PhD student in the [Theoretical Computer Science group](http://www.cs.bham.ac.uk/research/groupings/theory/) at the University of Birmingham. My supervisor is [Noam Zeilberger](http://noamz.org/).
-My research interests include models of linear logic, categorical semantics of non-classical programming languages - e.g. probabilistic or quantum programming languages - and monoidal categories.
+I am a PhD student in the [Theoretical Computer Science group](https://www.cs.bham.ac.uk/research/groupings/theory/) at the University of Birmingham. My supervisors are [Noam Zeilberger](https://noamz.org/) and [Paul Levy](https://www.cs.bham.ac.uk/~pbl/).
+My research interests mainly involve category theory, logic and their applications.
 
-Before that I did a Master in Mathematical Logic and Foundation of Computer Science at the Paris Diderot University. During this period I did a five-month internship under the supervision of [Benoît Valiron](http://www.monoidal.net/) on the syntax and semantics of a linear probabilistic $\lambda\mu$-calculus.
+I graduated from the Master in Mathematical Logic and Foundations of Computer Science at the Paris Diderot University. During this period I did a five-month internship under the supervision of [Benoît Valiron](http://www.monoidal.net/) on the syntax and semantics of a linear probabilistic $\lambda\mu$-calculus.
+Then I was using formal methods as a software engineer and safety engineer at [Clearsy](https://www.clearsy.com/en/) for almost two years.
+More recently I did a research internship at [Riverlane](https://www.riverlane.com/) about the specification and verification of dataflow programs.
 
-Lately I have been investigated refinements of models of linear logic.
-In categorical terms I have been looking at functors $p \colon \mathcal{E} \to \mathcal{B}$ such that the base category $\mathcal{B}$ is symmetric monoidal closed (SMC) or $\ast$-autonomous.
-A natural question is: can the logical structure of $\mathcal{B}$ be lifted to the category $\mathcal{E}$?
+During my PhD I have been investigating bifibred polycategories to provide models of refinements of classical multiplicative linear logic. This has lead to a [publication]({{< relref "publication/polybifibrations" >}}).
 
-A nice framework to analyse this is by moving to a multicategorical or polycategorical setting.
-There the existence of some logical structure on $\mathcal{E}$ inherited by $\mathcal{B}$ reduced to (bi)fibrational properties of the multifunctor or polyfunctor associated to $p$.
-
-My motivating example is the forgetful functor between the category of finite dimensional Banach spaces and contractive maps and the category of finite dimensional vector spaces and linear maps.
-The former is $\ast$-autonomous with finite products and finite coproducts while the latter is compact closed with finite biproducts.
-So in some sense considering norms on finite dimensional vector spaces gives a way to distinguish between conjunction and disjunction.
-
+Lately I have been looking at developing a similar approach to (full) intuitionistic linear logic using some fibred generalised multicategories. This is inspired by linear non-linear logic and by recent work by Martin Hyland and Christine Tasson on its multicategorical models.

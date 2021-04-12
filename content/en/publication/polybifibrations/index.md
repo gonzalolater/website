@@ -42,8 +42,6 @@ links:
   - name: ACT 2020
     url: "act.pdf"
 
-
-
 url_pdf:
 url_code:
 url_dataset:

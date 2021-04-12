@@ -28,19 +28,19 @@ image:
 projects: []
 ---
 
-Une collection de choses à connaître sur les Polycatégories, avec des pointeurs vers des articles pertinents. Quelques travaux inédits y sont présentés.
+Une collection de choses à connaître sur les polycatégories, avec des pointeurs vers des articles pertinents. Quelques travaux inédits y sont présentés.
 
-1. Les **Polycatégories** ont été définies par Szabo en 1975 dans l'article [_Polycategories_](https://www.tandfonline.com/doi/abs/10.1080/00927877508822067).
-2. Les **Polycatégories** sont des "catégories avec des morphismes a multiple entrées/sorties". 
-3. Les **Polycatégories** correspondent au **calcul des séquents classique de Gentzen**.
-4. Les **Polycatégories** se compose le long d'un objet.
-5. La composition de **Polycatégories** correspond à la coupure en logique.
-6. Les **Polycatégories représentables** sont les **catégories linéairement distributives**, cf [_Weakly distributive categories_](https://www.sciencedirect.com/science/article/pii/0022404995001603).
-7. Dans une **Polycatégorie**, $\otimes$ et ⅋ sont caractérisés par une **propriété universelle**.
-8. **La Logique est Universelle !**
-9. Une **Polycatégorie bifibrée** sur une Polycatégorie représentable est représentable, cf [_my talk_]({{< ref "talk/SYCO5/index.md" >}}).
-10. La **Polycatégorie terminale** contient un objet $\ast$ et un polymorphisme $\underline{(m,n)}$ pour chaque paire d'arités.
-11. Une **Polycatégorie** est **représentable** ssi elle est **bifibrée** sur la **Polycatégorie terminale**.
-12. Les **polymorphismes universaux** correspondent aux **polymorphismes opcartésiens**, par rapport au foncteur vers la **Polycatégorie** terminale.
-13. **L'Universalité est Fibrationnelle !**
-14. Les **algèbres de Frobenius** sont les éléments généralisés des **Polycatégories**.
+1. Les **polycatégories** ont été définies par Szabo en 1975 dans l'article [_Polycategories_](https://www.tandfonline.com/doi/abs/10.1080/00927877508822067).
+2. Les **polycatégories** sont des "catégories avec des morphismes à multiple entrées/sorties". 
+3. Les **polycatégories** interprètent le **calcul des séquents classique de Gentzen**.
+4. Les **polycatégories** se compose le long d'un objet.
+5. La composition de **Polycatégories** est analogue à la coupure en logique.
+6. Les **polycatégories représentables** correspondent aux **catégories linéairement distributives**, cf [_Weakly distributive categories_](https://www.sciencedirect.com/science/article/pii/0022404995001603).
+7. Dans une **polycatégorie**, $\otimes$, ⅋ et dualité sont caractérisés par une **propriété universelle**.
+8. Une polycatégorie représentable qui admet une dualité est dite **$\ast$-représentable**.
+9. Une **polycatégorie bifibrée** sur une polycatégorie $\ast$-représentable est $\ast$-représentable, cf [_cet article_]({{< ref "publication/polybifibrations/index.md" >}}).
+10. La **polycatégorie terminale** contient un objet $\ast$ et un polymorphisme $\underline{(m,n)}$ pour chaque paire d'arités.
+11. Une **polycatégorie** est **$\ast$-représentable** ssi elle est **bifibrée** sur la **polycatégorie terminale**.
+12. Les **polymorphismes universaux** correspondent aux **polymorphismes cartésiens**, par rapport au foncteur vers la **Polycatégorie** terminale.
+13. Les **algèbres de Frobenius** sont les éléments généralisés des **polycatégories**.
+14. La **correspondance de Grothendieck** s'étend aux **polycatégories**.

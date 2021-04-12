@@ -3,6 +3,7 @@
 
 # Color theme.
 #   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`, `strawberry`.
+
 theme = "ocean"
 # Enable users to switch between day and night mode?
 day_night = true
@@ -11,7 +12,9 @@ day_night = true
 #   Choose from `default`, `classic`, or `playfair`.
 font = ""
 
+
 font_size = "L"
+
 
 ############################
 ## Basic Info
@@ -58,6 +61,9 @@ edit_page = {repo_url = "", content_dir = "", repo_branch = "main", editable = {
 # Show related content at the bottom of pages?
 show_related = {book = true, page = false, post = true, project = true, publication = true, talk = true}
 
+# Address format (choose from the [address_formats] list below or add you own to the list).
+address_format = "en-gb"
+
 ############################
 ## Contact details
 ##
@@ -81,7 +87,7 @@ address = {street = "School Of Computer Science, University of Birmingham", city
 directions = "Office 218"
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
-office_hours = ""
+office_hours = []
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
 appointment_url = ""
@@ -105,6 +111,12 @@ sharing_image = ""
 
 # Twitter username (without @). Used when a visitor shares your site on Twitter.
 twitter = "star_autonomy"
+
+# Available address formats.
+[address_formats]
+  en-us = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ' ', '']}
+  en-gb = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ', ', '']}
+  zh = {order = ['postcode', 'region', 'city', 'street'], delimiters = [' ', ' ', ' ', '']}
 
 ############################
 ## Regional Settings
@@ -225,6 +237,7 @@ plugins_js  = []
 ############################
 ## Maps
 ############################
+
 [map]
   # To show your address on a map in the Contact widget, enter your latitude and longitude (above)
   # and choose a map provider below.
@@ -264,5 +277,4 @@ plugins_js  = []
 ############################
 [icon.pack]
   ai = true  # Academicons icon pack https://jpswalsh.github.io/academicons/
-
 

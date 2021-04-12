@@ -1,7 +1,6 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-markup: mmark
 math: true
 
 title: "Classical linear logic via bifibrations of polycategories"
